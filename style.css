@@ -9,7 +9,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: rgb(222, 218, 211);
+    color: white
 }
 
 .child {
@@ -22,8 +22,28 @@ body {
 /* header  */
 .header{
     margin-top: 10px;
-    padding: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
 }
+.header .i1:hover{
+    color: rgb(163, 240, 237);
+    cursor: pointer;
+    font-size: 18px;
+    transition: 50ms linear; 
+}
+.header .i2:hover {
+    color: rgb(163, 240, 237);
+    cursor: pointer;
+    font-size: 18px;
+    transition: 50ms linear; 
+}
+.header .i3:hover {
+    color: rgb(163, 240, 237);
+    cursor: pointer;
+    font-size: 18px;
+    transition: 50ms linear; 
+}
+
 .right{
     float: right;
     letter-spacing: 5px;
@@ -79,6 +99,16 @@ hr{
     padding: 5px;
     margin: 0 15px;
 }
+.footer .div1 a{
+    text-decoration: none;
+    color: white;
+    scale: pointer;
+}
+.footer .div1 a:hover{
+    box-shadow: -9px 10px 51px -2px rgba(147,159,161,1);
+    transition: 50ms linear; 
+    
+}
 .footer .div1 h3,p{
     text-align: center;
     justify-content: center;
@@ -87,10 +117,11 @@ hr{
     margin-bottom: 30px;
 }
 .footer .div1 i{
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     object-fit: cover;
     font-size: 70px;
+    
     
 }
